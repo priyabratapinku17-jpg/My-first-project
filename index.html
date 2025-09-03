@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>BYTE BUSTER IT Solutions</title>
+<style>
+  body {
+    background: url('starry-sky-town.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+  }
+   body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.55);
+    backdrop-filter: blur(3px);
+    z-index: -1;
+  }
+
+  header {
+    position: absolute;
+    top: 20px; left: 20px; right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+  }
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+  }
+   header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+  }
+  .pinkun {
+    background: #e74c3c;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .pinkun:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+  }
+  .sensex {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px 0 20px;
+  }
+  .sensex h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+  }
+  .sensex p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+  .pinku {
+    background: #e74c3c;
+    color: #fff;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+  .pinku:hover {
+    background: #c0392b;
+    transform: scale(1.08);
+  }
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+    .sensex h2 {
+      font-size: 2.2rem;
+    }
+    .sensex p {
+      font-size: 1.1rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <img src="company logo.jpg" alt="Logo">
+    <h1>BYTE BUSTER IT Solutions</h1>
+    <a href="register.html" class="pinkun">Register</a>
+  </header>
+
+  <div class="sensex">
+    <h2>Empowering Your Business with PRIYABRATA PARIDA</h2>
+    <p>Innovative IT solutions designed to make your business thrive and grow with confidence in the digital world.</p>
+    <a href="partice.html" class="pinku">Get Started</a>
+  </div>
+</body>
+</html>
